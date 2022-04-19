@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+body{
+    background-image: url(img/imag03.jpeg) ;
+    background-attachment: fixed;
+    
+    
+}
+
+.container{
+    margin-top: 50px;
+    margin-left: 600px;
+}
+
+.cart{
+    background: linear-gradient(rgba(0,0,0,.90),rgba(0,0,0,.90));
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    width: 30vw;
+    height: 93vh;
+    margin-bottom: 100px;
+    text-align: center;
+    border-radius: 60px;
+    margin-left: -40px;
+       
+}
+.cart .foto{
+    width: 18vw;
+    height: 22vw;
+    padding-top: 3rem;
+}
+
+.cart span{
+    font-size: 1.8rem;
+    font-family: 'Work Sans', sans-serif;
+}
+.cart h1{
+    font-size: 3.0rem;
+    padding-top: 0.3rem;
+    font-family: 'Work Sans', sans-serif;
+}
+.cart p {
+    font-size: 1.4rem;
+    padding-top: 1.5rem;
+    font-family: 'Work Sans', sans-serif;
+}
+.foto {
+  border-radius: 50%;
+  margin: 0 auto 2rem auto;
+}
+
+.portifolio{
+   background: linear-gradient(rgba(0,0,0,.90),rgba(0,0,0,.90));
+    color: white;
+    width: 70vw;
+    height: 155vh;
+    margin-left: -369px;
+    text-align: center;
+    border-radius: 60px;
+    padding-left: 40px;
+    padding-top: 25px;
+    
+    
+}
+
+.portifolio h1{
+    padding-top: 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2.5rem;
+    color: white;
+    
+}
+
+
+.portifolio .felipe{
+    width: 18vw;
+    height: 22vw;
+    padding-top: 1rem;
+}
+.portifolio .sonhos{
+    width: 18vw;
+    height: 22vw;
+    padding-top: 1rem;
+}
+.portifolio .quali{
+    width: 18vw;
+    height: 22vw;
+    padding-top: 1rem;
+}
+
+.descricao{
+    position: absolute; 
+    background-color:transparent;
+    color: white;
+    width: 40vw;
+    height: 150vh;
+    margin-left: 100px;
+    margin-right: 300px;
+    text-align: left;
+    border-radius: 60px;
+    padding: 30px;
+    padding-bottom: 10px;
+    
+}
+.descricao  p{
+    
+    padding-bottom: 20px;
+    padding-top: 3px;
+    font-size: 1.4rem;
+    text-indent: 3ch;
+}
+
+.descricao  ul li{
+    
+    padding-bottom: 20px;
+    padding-top: 3px;
+    font-size: 1.4rem;
+    text-indent: 3ch;
+}
+
+.descricao h2{
+    font-size: 1.9rem;
+    padding-top: 100px;
+    padding-bottom: 5px;
+    color: aqua;
+}
+.descricao.so h2{
+    
+ margin-top: 200px;
+}
+
+.descricao .so{
+    padding-top: 100px;
+}
+
+.icon{
+    
+    width: 20vw;
+    height: 10vh;
+    display: inline-block;
+}
+
+.icon a{
+    display: inline-block;
+    padding-left: 1.0rem;
+    padding-right: 1.0rem;
+    padding-top: 5.0rem;
+}
+.copyright{
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    color: aqua;
+    font-size: 1.5rem;
+    padding-left: 90px;
+}
